@@ -123,6 +123,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="etc\passwd" />
+    <None Include="etc\shadow" />
+    <None Include="etc\shadow_decrypt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Goods.h" />
+    <ClInclude Include="Groups.h" />
+    <ClInclude Include="md5.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="GoodsList.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Goods.cpp" />
+    <ClCompile Include="Groups.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
